@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            <h1>Doctor Appointment Booking</h1><hr>
+        <h2>Book Appointment</h2>
+        <form class="form1">
+            <label for="patient-name">Patient Name:</label> <br>
+            <input type="text" id="patient-name" placeholder="e.g.John Doe"><br>
+            <label for="doctor-names">Doctor Name:</label><br>
+            <Select id="doctor-names" name="names">
+                <option value="smith">Dr. Smith</option>
+                <option value="johnson">Dr. Johnson</option>
+                <option value="williams">Dr. Williams</option>
+            </Select><br>
+            <label for="appointment-date">Appointment Date:</label><br>
+            <input type="date" id="appointment-date" required="required"><br>
+            <label for="appointment-time">Appointment Time:</label><br>
+            <input type="time" id="appointment-time"><br>
+            <button class="btn1">Book Appointment</button>
+        </form>
+        <h2>Cancel Appointment</h2>
+        <form class="form2">
+            <label for="appointment-id">Appointment ID:</label><br>
+            <input type="number" id="appointment-id" placeholder="e.g. 1"><br>
+            <button id="btn2">Cancel Appointment</button>
+        </form>
+        <h2>View Appointments</h2>
+        <button id="btn3">Show Appointments</button><br>
+        <textarea name="" id="textarea"></textarea>
+        </div>
+    </div>
+
+    <div id="doctors">
+        <h2>Doctors</h2>
+    </div>
+    <div class="container2">
+        <div class="box" id="child1">
+            <h3>Dr. Smith</h3>
+            <div class="doctor1">
+                <p>Total Slots: 16 </p>
+                <p>Available Slots: 16 </p>
+                <div class="slots" id="slot1">
+                    <div class="div1">09:00</div>
+                    <div class="div1">09:15</div>
+                    <div class="div1">09:30</div>
+                    <div class="div1">09:45</div>
+                    <div class="div1">10:00</div>
+                    <div class="div1">10:15</div>
+                    <div class="div1">10:30</div>
+                    <div class="div1">10:45</div>
+                    <div class="div1">11:00</div>
+                    <div class="div1">11:15</div>
+                    <div class="div1">11:30</div>
+                    <div class="div1">11:45</div>
+                    <div class="div1">12:00</div>
+                    <div class="div1">12:15</div>
+                    <div class="div1">12:30</div>
+                    <div class="div1">12:45</div>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="child2">
+            <h3>Dr. Johnson</h3>
+            <div class="doctor1">
+                <p>Total Slots: 24 </p>
+                <p>Available Slots: 24</p>
+                <div class="slots" id="slot2">
+                    <div class="div1">10:00</div>
+                    <div class="div1">10:15</div>
+                    <div class="div1">10:30</div>
+                    <div class="div1">10:45</div>
+                    <div class="div1">11:00</div>
+                    <div class="div1">11:15</div>
+                    <div class="div1">11:30</div>
+                    <div class="div1">11:45</div>
+                    <div class="div1">12:00</div>
+                    <div class="div1">12:15</div>
+                    <div class="div1">12:30</div>
+                    <div class="div1">12:45</div>
+                    <div class="div1">13:00</div>
+                    <div class="div1">13:15</div>
+                    <div class="div1">13:30</div>
+                    <div class="div1">13:45</div>
+                    <div class="div1">14:00</div>
+                    <div class="div1">14:15</div>
+                    <div class="div1">14:30</div>
+                    <div class="div1">14:45</div>
+                    <div class="div1">15:00</div>
+                    <div class="div1">15:15</div>
+                    <div class="div1">15:30</div>
+                    <div class="div1">15:45</div>
+                </div>
+            </div>
+        </div>
+        <div class="box" id="child3">
+            <h3>Dr. Williams</h3>
+            <div class="doctor1">
+                <p>Total Slots: 28</p>
+                <p>Available Slots: 28</p>
+                <div class="slots" id="slot3">
+                    <div class="div1">08:00</div>
+                    <div class="div1">08:15</div>
+                    <div class="div1">08:30</div>
+                    <div class="div1">08:45</div>
+                    <div class="div1">09:00</div>
+                    <div class="div1">09:15</div>
+                    <div class="div1">09:30</div>
+                    <div class="div1">09:45</div>
+                    <div class="div1">10:00</div>
+                    <div class="div1">10:15</div>
+                    <div class="div1">10:30</div>
+                    <div class="div1">10:45</div>
+                    <div class="div1">11:00</div>
+                    <div class="div1">11:15</div>
+                    <div class="div1">11:30</div>
+                    <div class="div1">11:45</div>
+                    <div class="div1">12:00</div>
+                    <div class="div1">12:15</div>
+                    <div class="div1">12:30</div>
+                    <div class="div1">12:45</div>
+                    <div class="div1">13:00</div>
+                    <div class="div1">13:15</div>
+                    <div class="div1">13:30</div>
+                    <div class="div1">13:45</div>
+                    <div class="div1">14:00</div>
+                    <div class="div1">14:15</div>
+                    <div class="div1">14:30</div>
+                    <div class="div1">14:45</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
