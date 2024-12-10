@@ -158,3 +158,9 @@ document.getElementById("doctor-names").addEventListener("change", (event) => {
 document.addEventListener("DOMContentLoaded", () => {
     bookingSystem.updateTimeSlots(document.getElementById("doctor-names").value);
 });
+
+
+
+
+
+
